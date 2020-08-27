@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Want to Call"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="23dp"
+            android:id="@+id/title"
+            ></TextView>
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/title"
+                android:src="@drawable/call"
+                android:id="@+id/callimg"
+                android:background="@drawable/btncall"
+                ></ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:text="Call"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/callimg"
+                android:id="@+id/callbtn"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:gravity="center"
+                ></TextView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
